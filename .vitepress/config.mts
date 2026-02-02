@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "蜗牛爬得慢",
   description: "聚焦前沿前端、跨端与AI结合的实践记录",
+  base: '/zj-tech-blog/',  // 关键：设置仓库名作为基础路径
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
