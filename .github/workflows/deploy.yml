@@ -36,8 +36,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 关键修改：这里是 .vitepress/dist，不是 docs/.vitepress/dist
-          path: .vitepress/dist
+          # 关键修改：这里是 docs/.vitepress/dist
+          path: docs/.vitepress/dist
 
   deploy:
     environment:
