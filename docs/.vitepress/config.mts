@@ -22,6 +22,18 @@ export default defineConfig({
           items: [
             { text: '第一篇：启航', link: '/posts/2026-01-first-post' }
           ]
+        },
+        {
+          text: '技术栈学习',
+          items: [
+            { text: '理解Angular', link: '/posts/angular' }
+          ]
+        },
+        {
+          text: '其他',
+          items: [
+            { text: 'markdown语法', link: '/posts/example' }
+          ]
         }
       ]
     },
